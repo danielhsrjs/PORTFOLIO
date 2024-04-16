@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Jersey+25&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-image: linear-gradient(rgb(52, 121, 185), rgb(24, 47, 110));
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    color: white;
+}
+
+h1 {
+    font-size:1000%;
+    font-family: 'Kanit';
+    margin-top: 25vh;    
+    text-shadow: 2px 2px 4px rgb(33, 59, 129);
+}
+
+h2 {
+    font-size: 350%;
+    font-family: 'Kanit';
+    text-shadow: 2px 2px 4px rgb(33, 59, 129);
+    text-decoration: underline;
+}
+
+nav {
+    margin: 160px;
+}
+
+a {
+    font-size: 250%;
+    font-family: 'Arimo';
+    text-decoration: none;
+    color: white;
+    padding: 40px;
+    text-shadow: 2px 2px 2px rgb(21, 43, 104);
+}
+
+a:hover {
+    text-shadow: 2px 2px 2px rgb(21, 43, 104);
+    background-color: rgb(18, 38, 94);
+}
